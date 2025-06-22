@@ -1,0 +1,88 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+body{
+      background-color: pink;
+}
+
+/* h1 */
+
+h1{
+      text-align: center;
+      margin-top: 20px;
+      color: purple;
+      
+}
+
+/* input */
+
+.to{
+      background: lime;
+      width: 400px;
+      height: 30px;
+      margin-top: 20px;
+      padding:20px;
+      border: 1px solid black;
+      margin-left: 20px;
+      font-size: 20px;
+}
+.to:hover{
+      background-color: black;
+      color: white;
+   
+}
+
+delete,edit, button{
+      background-color: black;
+      font-size: 20px;
+      padding: 20px;
+      margin-top: 30px;
+      margin-inline: 10px;
+      color: white;
+      border: 1px solid white;
+      cursor: pointer;
+      margin-left: 20px;
+      border-radius: 20px;
+ }
+delete,edit, button:hover {
+
+      background-color: aqua;
+      color: black;
+ }
+
+
+ /* click button */
+
+.operator{
+   background-color: red;
+   margin-inline: 20px;
+   font-size: 40px;
+   padding: 20px;
+   border-radius: 20px;
+   border: 3px solid black;
+   margin-top: 20px;
+   cursor: pointer;
+ }
+.operator:hover{
+      background-color: aqua;
+      color: black;
+   
+ }
+
+/* delete all button */
+
+.pro{
+    background-color: green;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+      
+}
+.pro:hover{
+      background-color: black;
+      color: red;
+   
+ }
